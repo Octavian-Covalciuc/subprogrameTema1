@@ -6,6 +6,6 @@ if m < n:
             return 1
         return fact(x-1) * x
 
-    print('Numarul de combinari din {n} elemente cate {m} este {fact(n)/fact(m)/fact(n-m)}')
+    print(f'Numarul de combinari din {n} elemente cate {m} este {fact(n)/fact(m)/fact(n-m)}')
 else:
     print('m trebuie sa fie mai mic ca n')
